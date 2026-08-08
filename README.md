@@ -163,7 +163,23 @@ npm run build
 npm run start
 ```
 
-### 5. Run the demo scenario (judge-ready, ~60 seconds)
+### 5. Run the automated tests
+
+The core detection and explainable risk engines are covered by a Vitest suite:
+
+```bash
+npx vitest run
+```
+
+For watch mode during development:
+
+```bash
+npx vitest
+```
+
+The suite verifies risk-level boundaries, the exact 91/100 brute-force demo score, score capping, normal-traffic handling, brute-force detection, port-scan detection, abnormal-login prioritization, traffic anomalies, and strongest-detection selection.
+
+### 6. Run the demo scenario (judge-ready, ~60 seconds)
 
 1. Open the **Dashboard** → threat level **LOW**, active incidents **0**.
 2. Go to **Attack Simulation** → click **Simulate Brute Force**.
