@@ -239,3 +239,6 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 _Made for hackathons, SOC demos and security-education showcases. Built with ❤️ by the SentinelAI team._
+
+
+
